@@ -1,6 +1,6 @@
 package Study.src.class1;
 
-class JavaTest {
+class Test {
     int num;
 
     JavaTest() {
@@ -14,9 +14,9 @@ class JavaTest {
     }
 }
 
-public class Test {
+public class JavaTest {
     public static void main(String arg[]){
-        JavaTest jt = new JavaTest();
+        Test jt = new Test();
 
         // System.out.println(jt.num);
 
