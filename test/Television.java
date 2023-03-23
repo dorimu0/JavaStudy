@@ -1,4 +1,4 @@
-package Study.src.class1;
+package test;
 
 public class Television {
     int channel;

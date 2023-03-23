@@ -1,4 +1,4 @@
-package class1;
+package test;
 
 class Box {
   int width;

@@ -1,4 +1,4 @@
-package class1;
+package test;
 
 public class Circle {
   private Point p;
@@ -17,11 +17,9 @@ public class Circle {
 
     // 부모로부터 상속받은 메소드를 재정의 하는 것을 오버라이딩이라고 한다.
     // overriding
-    @Override
-    public String 
-    
-    toString(){
-      return " X: " +  x + ", Y: " + y;
-    }
+    // @Override
+    // public String toString(){
+    //   return " X: " +  x + ", Y: " + y;
+    // }
   }
 }

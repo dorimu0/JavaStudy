@@ -1,5 +1,11 @@
+package test;
+
 public class Math {
-  public static void main(String[} args) {
+
+  public int add(int x, int y) {
+    return 2 + 3;
+  }
+  public static void main(String[] args) {
     int sum;
     Math obj = new Math();
     sum = obj.add(2, 3);

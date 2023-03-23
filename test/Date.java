@@ -1,4 +1,4 @@
-package class1;
+package test;
 
 public class Date {
   private int year;

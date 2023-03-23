@@ -1,4 +1,4 @@
-package javaclass;
+package test;
 
 class A {
 	private int a;
