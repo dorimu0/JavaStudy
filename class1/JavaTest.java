@@ -1,9 +1,9 @@
-package Study.src.class1;
+package class1;
 
 class Test {
     int num;
 
-    JavaTest() {
+    Test() {
         num = 3;
     }
     int square(int num) {
