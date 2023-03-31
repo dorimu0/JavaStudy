@@ -23,5 +23,8 @@ public class ShapeTest {
     for(Shape s : shapes){
       s.draw();
     }
+    // for ( int i = 0; i < shapes.length; i++ ){
+    //      Shape s = shapes[i];
+    //}     s.draw();
   }
 }
