@@ -6,6 +6,13 @@ public class Test{
     Rectangle r = new Rectangle();
     Circle c = new Circle();
     Triangle t = new Triangle();
+    Shape s1;
+    s1 = new Rectangle();
+
+    s1.x = 0;
+    s1.y = 0;
+    // s1.width = 3;
+    // s1.height = 2;
 
     r.draw();
     r.move(10, 20);

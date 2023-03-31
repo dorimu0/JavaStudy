@@ -1,8 +1,8 @@
 package abstract_class;
 
 public abstract class Shape {
-  private int x;
-  private int y;
+  public int x;
+  public int y;
 
   
   // Shape를 상속받는 자식 클래스는 move 메소드를 그대로 사용 하면 된다.
