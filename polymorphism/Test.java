@@ -1,4 +1,4 @@
-package silsb;
+package polymorphism;
 
 import java.util.Random;
 
