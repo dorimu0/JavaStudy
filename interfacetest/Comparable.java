@@ -7,6 +7,6 @@ public interface Comparable {
   // 인터페이스의 모든 메소드는 기본적으로 public
   // 왜냐하면 다른 클래스와 상호작용하기 위한 계약
   // 다른 클래스에서 사용할 수 있는 메소드의 리스트 나열
-  int compareTo();
+  int compareTo(Comparable obj);
   
 }

@@ -1,9 +1,18 @@
 package interfacetest;
 
-public interface Student implements {
+public class Student implements Comparable {
   private String name;
   private String dept;
   
+  public Student(String name, String dept) {
+    this.name = name;
+    this.dept = dept;
+  }
+
+  public String getName() {
+    return name;
+  }
+
   @Override
   public int compareTo(Comparable obj) {
     // null인 경우는 없다고 가정
