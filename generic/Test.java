@@ -31,7 +31,9 @@ public class Test {
 
     Box strBox = new Box();
     strBox.setValue("마르고 닳도록 하느님이 보우하사 우리나라 만세!");
+
     Object v = strBox.getValue();
+    
     int idx = ((String)v).indexOf("우리나라");
     System.out.println(((String)v).substring(idx));
 
@@ -39,5 +41,8 @@ public class Test {
     System.out.println(val);
     System.out.println("프로그램을 종료합니다.");
 
+    /* 문제점
+     * 값을 뺴서 사용할 때 명시적 타입 캐스팅(형변환)을 해야한다. => 귀찮, 런타임 오류 발생 가능
+     */
   }
 }
