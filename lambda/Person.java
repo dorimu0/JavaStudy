@@ -9,6 +9,17 @@ public class Person {
   private String emailAddress;
   private Sex gender;
 
+  public Person() {
+
+  }
+
+  public Person(String name, LocalDate bir, String email, Sex gender) {
+    this.name = name;
+    this.birDate = bir;
+    this.emailAddress = email;
+    this.gender = gender;
+  }
+
   public String getName() {
     return this.name;
   }
